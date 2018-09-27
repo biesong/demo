@@ -10,10 +10,10 @@ public class PropertiesUtil {
 			properties=new Properties();
 			InputStream in=PropertiesUtil.class.getClassLoader().getResourceAsStream("web.properties");
 			properties.load(in);
+		
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
 		return properties.getProperty(key);
 	}
 	

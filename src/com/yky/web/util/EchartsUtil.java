@@ -20,7 +20,6 @@ public class EchartsUtil {
 			//categories[i]=list.get(1).getOperate();
 			
 		}
-		
 		echarts.setCategories(categories);
 		echarts.setRecharge(recharge);
 		return echarts;

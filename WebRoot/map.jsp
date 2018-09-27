@@ -13,7 +13,7 @@
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="js/jquery.min.js"> </script>
-<script type="text/javascript" src="js/echarts.min.js"> </script>、
+<script type="text/javascript" src="js/echarts.min.js"> </script>
 <script type="text/javascript" src="js/china.js"> </script>
   </head>
   <body>

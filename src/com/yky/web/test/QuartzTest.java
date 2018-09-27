@@ -13,7 +13,6 @@ import org.quartz.SchedulerFactory;
 
 public class QuartzTest implements Job{
 
-	@Override
 	public void execute(JobExecutionContext arg0) throws JobExecutionException {
 		// TODO Auto-generated method stub
 		System.out.println(new Date());

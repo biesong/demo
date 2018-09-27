@@ -44,7 +44,7 @@ public class EmployeeDaoImpl implements EmployeeDao{
         } 
         return list;
      }
-	@Override
+	
 	public List<Data> getData() {
 		 String sql ="SELECT count(distinct id) id , DATE_FORMAT(hiredate,'%H') hours FROM employee where DATE_FORMAT(hiredate,'%Y%m%d') = '20180911' group BY hours";
          DBConnection db = new DBConnection();

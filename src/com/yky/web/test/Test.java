@@ -12,7 +12,7 @@ import com.yky.web.util.DBConnection;
 
 public class Test {
 	public static void main(String[] args) {
-		
+		System.out.println();
 //		for (int k = 1; k <=9; k++) {
 //			for (int i =1; i <=k; i++) {
 //				System.out.print(i+"*"+""+k+"="+i*k+'\t');

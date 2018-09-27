@@ -36,7 +36,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 		
 	}
 
-	@Override
+	
 	public Echarts getByDate() {
 		EmployeeDao dao=new EmployeeDaoImpl();
 		return EchartsUtil.getData(dao.getData());
